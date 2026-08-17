@@ -1,16 +1,69 @@
-# React + Vite
+# Site Pessoal e Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Site pessoal e portfólio acadêmico desenvolvido para a disciplina de **Desenvolvimento de Software**, do curso de **Sistemas de Informação — CIn/UFPE**.
 
-Currently, two official plugins are available:
+O site apresenta informações pessoais e acadêmicas, interesses, habilidades e projetos desenvolvidos ao longo da graduação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+* React
+* Vite
+* JavaScript
+* HTML
+* CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Estrutura do projeto
 
-## Expanding the Oxlint configuration
+O projeto é organizado em diferentes componentes e páginas:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **Início** — apresentação pessoal, interesses e informações de contato.
+* **Sobre** — trajetória acadêmica, interesses tecnológicos, habilidades e objetivos profissionais.
+* **Portfólio** — apresentação de projetos acadêmicos e outros projetos desenvolvidos.
+
+## 💻 Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone MrTicos/Personal-Site-CIN.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd nome-do-projeto
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto em modo de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Após iniciar, o Vite disponibilizará um endereço local para acessar o site.
+
+## 📦 Build
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+Os arquivos gerados ficam na pasta `dist/`.
+
+## 🌐 Publicação
+
+O projeto foi gerado como um site estático e publicado no servidor do **CIn-UFPE**, utilizando a pasta virtual disponibilizada para o aluno.
+
+## 👨‍💻 Autor
+
+**Thiago Silva França**
+
+Sistemas de Informação — CIn/UFPE
